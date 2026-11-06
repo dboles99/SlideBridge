@@ -1,5 +1,7 @@
 # SlideBridge
 
+**[Read the wiki](https://github.com/dboles99/SlideBridge/wiki)** for how it works, the evidence, the design decisions and the limits.
+
 A command-line tool that turns PowerPoint decks into a Word review pack: one table per slide with a screenshot, the extracted text, and an empty column for an editor's changes.
 
 **简体中文：** SlideBridge 把一个或多个 PowerPoint（`.pptx`）文件转换成便于审校的 Word（`.docx`）文件：每张幻灯片对应一个表格，包含幻灯片截图、提取出的文字，以及留给编辑填写修改内容的空列。截图需要安装 LibreOffice。
