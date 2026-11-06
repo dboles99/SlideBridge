@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[oc]
+dist/
+wheels/
+*.egg-info
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+
+# SlideBridge work artifacts: slide content extracted from input decks, plus
+# rendered images and logs. Everything under work/ is derived from input/ and can
+# be regenerated; none of it is source.
+work/
+logs/
+
+# Output DOCX/CSV (deliverables, not source)
+output/
+
+# Input files (real PPTX should not be committed)
+input/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# mypy / ruff caches
+.mypy_cache/
+.ruff_cache/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage

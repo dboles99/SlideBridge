@@ -1,0 +1,37 @@
+project:
+  name: slidebridge
+  log_level: INFO
+
+input:
+  glob:
+    - "input/*.pptx"
+
+render:
+  engine: libreoffice
+  dpi: 180
+  image_format: png
+  optimize_images: true
+  max_width_px: 2000
+
+extract:
+  include_notes: true
+  detect_titles: true
+  merge_text_fragments: true
+
+reconcile:
+  sort_primary: top
+  sort_secondary: left
+  row_tolerance_emu: 457200
+  warn_low_confidence: true
+
+docx:
+  page_size: A4
+  margins: narrow
+  insert_source_filename: true
+  image_width_inches: 6.7
+  table_layout: fixed
+  include_warning_block: true
+
+audit:
+  write_csv: true
+  write_json: true
