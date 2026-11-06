@@ -23,7 +23,7 @@ The `run` command chains five stages, and each stage is also a command of its ow
 Needs Python 3.11 or later. LibreOffice (`soffice` on the PATH) is needed for the `render` stage and therefore for `run`; `extract`, `reconcile` and the tests other than the render test do not need it.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/dboles99/SlideBridge.git
 cd SlideBridge
 python -m venv .venv
 .venv/bin/pip install -e ".[dev]"      # Windows: .venv\Scripts\pip install -e ".[dev]"
